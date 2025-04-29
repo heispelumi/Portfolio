@@ -1,5 +1,5 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaInstagram, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -37,20 +37,16 @@ export default function Footer() {
           >
             <FaInstagram />
           </a>
+       
           <a
-            href="https://linkedin.com/in/yourusername"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-yellow-500 transition-all duration-300 hover:scale-110"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="mailto:youremail@example.com"
+            href="mailto:pelumiatoyebi06@gmail.com"
             className="hover:text-yellow-500 transition-all duration-300 hover:scale-110"
           >
             <FaEnvelope />
           </a>
+              <a href="https://x.com/heisatoyebi" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
+                              <FaTwitter />
+                            </a>
         </div>
 
       </div>

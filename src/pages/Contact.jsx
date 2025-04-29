@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import {  FaGithub, FaTwitter, FaEnvelope, FaInstagram } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 export default function ContactPage() {
@@ -90,13 +90,25 @@ export default function ContactPage() {
             >
               <h2 className="text-2xl font-bold text-gray-100 mb-6">Connect with Me</h2>
               <div className="flex space-x-6 text-3xl text-gray-400">
-                <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
-                  <FaLinkedin />
-                </a>
-                <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
+               
+                <a href="https://github.com/heispelumi" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
                   <FaGithub />
                 </a>
-                <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
+                   <a
+                            href="https://www.instagram.com/heisatoyebi/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Finbox%2F%3Fhl%3Den%26__coig_login%3D1"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-yellow-500 transition-all duration-300 hover:scale-110"
+                          >
+                            <FaInstagram />
+                          </a>
+                    <a
+                            href="mailto:pelumiatoyebi06@gmail.com"
+                            className="hover:text-yellow-500 transition-all duration-300 hover:scale-110"
+                          >
+                            <FaEnvelope />
+                          </a>
+                <a href="https://x.com/heisatoyebi" target="_blank" rel="noopener noreferrer" className="hover:text-yellow-500 transition duration-200">
                   <FaTwitter />
                 </a>
               </div>
