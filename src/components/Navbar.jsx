@@ -66,12 +66,14 @@ const Navbar = () => {
             <div className="space-y-4">
               <h2 className="text-lg text-gray-400">Get in Touch</h2>
              
-              <a href="https://drive.google.com/file/d/1K2pZzKqt3wLzKtGyXOVbwNYaGdcV-6OW/preview"
+              <a
+  href="https://drive.google.com/file/d/1K2pZzKqt3wLzKtGyXOVbwNYaGdcV-6OW/preview"
   target="_blank"
   rel="noopener noreferrer"
-onClick={toggleMenu} className="block text-center bg-yellow-400 text-black py-3 rounded-full font-bold hover:bg-yellow-500 transition">
-                View My Resume
-              </a>
+  className="block text-center bg-yellow-400 text-black py-3 rounded-full font-bold hover:bg-yellow-500 transition"
+>
+  My Resume
+</a>
               <p className="text-sm text-gray-400">Let’s build something amazing together!</p>
             </div>
           </div>
