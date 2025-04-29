@@ -12,7 +12,7 @@ export default function Footer() {
          
           Think I'd be a good fit for your team or project? Let's connect.
           </p>
-          <p className="text-[5px] md:text-[10px]">
+          <p className="text-[7px] md:text-[14px]">
             &copy; {new Date().getFullYear()}{" "}
             <span className="text-yellow-500  font-semibold">Pelumi</span>. 
             All rights reserved.
