@@ -33,7 +33,7 @@ export default function AboutMePage() {
               <p className="text-[15px] md:text-[18px] text-gray-400 leading-relaxed">
                 I'm Atoyebi Pelumi, a Frontend Developer holding a degree in Computer Science from Redeemer's University. My passion lies in creating seamless, user-friendly digital experiences that make an impact.
                 <br /><br />
-                While my current focus is on frontend development, I have a strong interest in 3D front-end development and blockchain technology. These fields excite me due to their potential to transform the way we interact with the digital world, and I’m eager to dive deeper into them as I continue to grow and evolve in the tech industry.
+                While my current focus is on frontend development, I have a strong interest in Mobile app development and blockchain technology. These fields excite me due to their potential to transform the way we interact with the digital world, and I’m eager to dive deeper into them as I continue to grow and evolve in the tech industry.
               </p>
             </div>
 
