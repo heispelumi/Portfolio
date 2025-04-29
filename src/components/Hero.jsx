@@ -70,7 +70,7 @@ const Hero = () => {
 
             {/* Hidden Easter Egg Text */}
             <span className="absolute bottom-4 text-[3px] md:text-[7px] right-4 text-sm text-gray-700 opacity-40 select-none pointer-events-none">
-                I might also be Batman lol .
+                I might also be Batman .
             </span>
         </section>
     );

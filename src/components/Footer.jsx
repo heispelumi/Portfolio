@@ -8,13 +8,13 @@ export default function Footer() {
         
         {/* Left side - Subtle coding quote */}
         <div className="text-center md:text-left text-sm leading-relaxed">
-          <p className="text-yellow-500 font-semibold mb-2">
+          <p className="text-yellow-500 text-[9px]   md:text-[12px] font-semibold mb-2">
          
           Think I'd be a good fit for your team or project? Let's connect.
           </p>
-          <p>
+          <p className="text-[5px] md:text-[10px]">
             &copy; {new Date().getFullYear()}{" "}
-            <span className="text-yellow-500 font-semibold">Pelumi</span>. 
+            <span className="text-yellow-500  font-semibold">Pelumi</span>. 
             All rights reserved.
           </p>
         </div>
