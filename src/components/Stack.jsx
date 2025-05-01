@@ -64,7 +64,7 @@ const Stack = () => {
           transition={{ duration: 1 }}
         >
           Explore My  {' '}
-          <span className="line-through text-gray-300">Cave</span>{' '}
+      
           <span className="text-yellow-500">Development</span> Stack
         </motion.h2>
 
